@@ -730,7 +730,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02736200J9HMHKAD</string>
+		<string>FillThis</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -760,9 +760,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro13,1</string>
 		<key>SerialNumber</key>
-		<string>C02VC5ZQGVC1</string>
+		<string>FillThis</string>
 		<key>SmUUID</key>
-		<string>7BEB8DB4-ADED-46A6-ACF7-BAC76F0466BE</string>
+		<string>FillThis</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
