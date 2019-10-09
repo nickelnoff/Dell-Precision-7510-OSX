@@ -1,6 +1,8 @@
-﻿SYSTEM,
-,
-SSDT-DMAC ,Exposes the DMA Controller to the system.
-SSDT-LPC,Correctly identifies the LPC bus to the system.
-SSDT-MCHC ,Exposes the memory controller to the system.
-SSDT-SMBUS ,Correctly identifies the SMBus to the system.
+﻿SYSTEM,,
+,,
+File Name,Purpose,DeviceId
+,,
+SSDT-DMAC ,Exposes the DMA Controller to the system.,
+SSDT-LPC,Correctly identifies the LPC bus to the system.,0xA150
+SSDT-MCHC ,Exposes the memory controller to the system.,
+SSDT-SMBUS ,Correctly identifies the SMBus to the system.,
