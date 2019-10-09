@@ -3,6 +3,6 @@
 File Name,Purpose,Real HW DeviceId,Apple Device Id
 ,,,
 SSDT-DMAC ,Exposes the DMA Controller to the system.,,
-SSDT-LPC,Correctly identifies the LPC bus to the system.,0xA150,
+SSDT-LPC,Correctly identifies the LPC bus to the system.,0xA150,0x9CC1
 SSDT-MCHC ,Exposes the memory controller to the system.,,
 SSDT-SMBUS ,Correctly identifies the SMBus to the system.,,
