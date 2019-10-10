@@ -7,6 +7,7 @@ SSDT-DMAC ,Yes,Exposes the DMA Controller to the system.,N/A,N/A
 SSDT-LPC,Yes,Correctly identifies the LPC bus to the system. Allows loading of AppleLPC.kext,0xA150,0x9CC1
 SSDT-MCHC ,Yes,Exposes the memory controller to the system.  Intel Sky Lake Host Bridge/DRAM Registers.,0x1918,0x1918
 SSDT-MEM2,Yes,Defines a fixed memory region that gets used for something possible related to IGPU,N/A,N/A
+SSDT-PMCR,No,Not used howevr DSDT Patch Rename done ,0xA121,0xA121
 SSDT-SMBUS ,Not Required,This SSDT injects the missing DVL0 device. Mostly used with Sandy Bridge and Ivy Bridge systems.,N/A,N/A
 ,,,,
 GRAPHICS,,,,
