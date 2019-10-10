@@ -2,6 +2,7 @@
 ,,,,
 Name,Implemented,Purpose,Real HW DeviceId,Apple Device Id
 ,,,,
+SSDT-ADP1,Yes,Builds ADP1 Device as found in real MacBook,N/A,N/A
 SSDT-DMAC ,Yes,Exposes the DMA Controller to the system.,N/A,N/A
 SSDT-LPC,Yes,Correctly identifies the LPC bus to the system. Allows loading of AppleLPC.kext,0xA150,0x9CC1
 SSDT-MCHC ,Yes,Exposes the memory controller to the system.  Intel Sky Lake Host Bridge/DRAM Registers.,0x1918,0x1918
