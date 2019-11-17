@@ -1,16 +1,8 @@
-﻿SYSTEM,,,,
-,,,,
-Name,Implemented,Purpose,Real HW DeviceId,Apple Device Id
-,,,,
-SSDT-ADP1,Yes,Builds ADP1 Device as found in real MacBook,N/A,N/A
-SSDT-DMAC ,Yes,Exposes the DMA Controller to the system.,N/A,N/A
-SSDT-LPC,Yes,Correctly identifies the LPC bus to the system. Allows loading of AppleLPC.kext,0xA150,0x9CC1
-SSDT-MCHC ,Yes,Exposes the memory controller to the system.  Intel Sky Lake Host Bridge/DRAM Registers.,0x1918,0x1918
-SSDT-MEM2,Yes,Defines a fixed memory region that gets used for something possible related to IGPU,N/A,N/A
-SSDT-PMCR,No,Not used howevr DSDT Patch Rename done ,0xA121,0xA121
-SSDT-PRW,Yes,,,
-SSDT-SMBUS ,Not Required,This SSDT injects the missing DVL0 device. Mostly used with Sandy Bridge and Ivy Bridge systems.,N/A,N/A
-,,,,
-GRAPHICS,,,,
-,,,,
-SSDT-BRT6,,Maps the keyboard’s ACPI-managed brightness keys to PS2 codes for VoodooPS2Controller.kext.,,
+﻿Name;Implemented;Purpose
+;;
+SSDT-LPC;Yes;Correctly identifies the LPC bus to the system. Allows loading of AppleLPC.kext
+SSDT-PNLF;Yes;Brightness Control
+SSDT-TYPEC;Yes;USB Type C 
+SSDT-UIAC;Yes;USB Stuff
+SSDT-USBX;Yes;USB Stuff
+SSDT-XCMP;Yes;
