@@ -1,10 +1,10 @@
-﻿SSDT;;
-;;
-Name;Implemented;Purpose
-;;
-SSDT-LPC;Yes;Correctly identifies the LPC bus to the system. Allows loading of AppleLPC.kext
-SSDT-PNLF;Yes;Brightness Control
-SSDT-TYPEC;Yes;USB Type C 
-SSDT-UIAC;Yes;USB Stuff
-SSDT-USBX;Yes;USB Stuff
-SSDT-XCMP;Yes;Stuff not sure
+﻿SSDT,,
+,,
+Name,Implemented,Purpose
+,,
+SSDT-LPC,Yes,Correctly identifies the LPC bus to the system. Allows loading of AppleLPC.kext
+SSDT-PNLF,Yes,Brightness Control
+SSDT-TYPEC,Yes,USB Type C 
+SSDT-UIAC,Yes,USB Stuff
+SSDT-USBX,Yes,USB Stuff
+SSDT-XCMP,Yes,Stuff not sure
