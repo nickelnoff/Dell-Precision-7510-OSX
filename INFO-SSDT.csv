@@ -1,4 +1,6 @@
-﻿Name;Implemented;Purpose
+﻿SSDT;;
+;;
+Name;Implemented;Purpose
 ;;
 SSDT-LPC;Yes;Correctly identifies the LPC bus to the system. Allows loading of AppleLPC.kext
 SSDT-PNLF;Yes;Brightness Control
